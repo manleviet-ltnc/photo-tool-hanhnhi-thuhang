@@ -1,0 +1,10 @@
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyPhoto\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources

@@ -141,7 +141,7 @@ namespace MyPhotos
                 sttImageSize.Text = String.Format("{0:#}x{1:#}",
                                                  pbxPhoto.Image.Width,
                                                  pbxPhoto.Image.Height);
-                sttAlbumPos.Text = String.Format("0:0/{1:0}",
+                sttAlbumPos.Text = String.Format("{0:0}/{1:0}",
                                                 Manager.Index + 1,
                                                 Manager.Album.Count);
             }

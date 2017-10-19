@@ -47,7 +47,7 @@ namespace Manning.MyPhotoControls
         }
         private void InitializeDialog(Photograph photo)
         {
-            _photo = Photo;
+            _photo = photo;
             ResetDialog();
         }
 
@@ -95,7 +95,7 @@ namespace Manning.MyPhotoControls
         }
 
 
-        private void class CurrentDate
+        private class CurrentDate
         {
             public static DateTime Parse(string input)
             {
@@ -119,6 +119,11 @@ namespace Manning.MyPhotoControls
                                                         MessageBoxIcon.Question);
                 e.Cancel = (result == DialogResult.Yes);
             }
+        }
+
+        private void PhotoEditDialog_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

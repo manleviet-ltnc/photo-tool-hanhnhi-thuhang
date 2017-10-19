@@ -174,6 +174,7 @@
             this.Controls.Add(this.label5);
             this.Name = "PhotoEditDialog";
             this.Text = "Photo Properties";
+            this.TextChanged += new System.EventHandler(this.PhotoEditDialog_TextChanged);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.txtNotes, 0);

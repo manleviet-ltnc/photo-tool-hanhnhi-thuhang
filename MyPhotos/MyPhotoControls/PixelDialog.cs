@@ -53,7 +53,7 @@ namespace Manning.MyPhotoControls
             {
                 case PictureBoxSizeMode.AutoSize:
                 case PictureBoxSizeMode.CenterImage:
-                    throw new NotSupportedException("The AutoSize and Center Image size modes"
+                    throw new NotSupportedException("The AutoSize and CenterImage size modes"
                                                      + "are not suppored at this time.");
                 case PictureBoxSizeMode.Normal:
                     // Rectangle coords are image coords
@@ -76,7 +76,7 @@ namespace Manning.MyPhotoControls
                         return; // position outside image
 
                     x = (xPos - r2.Left) * bmp.Width / r2.Width;
-                    y = (yPos - r2.Right) * bmp.Height / r2.Height;
+                    y = (yPos - r2.Top) * bmp.Height / r2.Height;
                     break;
             }
 

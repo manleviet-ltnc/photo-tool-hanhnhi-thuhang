@@ -1,0 +1,12 @@
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.dll
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
+C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources

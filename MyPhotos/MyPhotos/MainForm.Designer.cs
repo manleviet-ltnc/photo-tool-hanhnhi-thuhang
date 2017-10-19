@@ -39,6 +39,8 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuNext = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuPrevious = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.mnuPixelData = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuView = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
@@ -66,6 +68,7 @@
             this.sttInfo = new System.Windows.Forms.ToolStripStatusLabel();
             this.sttImageSize = new System.Windows.Forms.ToolStripStatusLabel();
             this.sttAlbumPos = new System.Windows.Forms.ToolStripStatusLabel();
+            this.mnuPhotoProps = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPhoto)).BeginInit();
             this.ctxMenuPhoto.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -83,6 +86,7 @@
             this.pbxPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbxPhoto.TabIndex = 1;
             this.pbxPhoto.TabStop = false;
+            this.pbxPhoto.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pbxPhoto_MouseMove);
             // 
             // ctxMenuPhoto
             // 
@@ -90,9 +94,12 @@
             this.mnuImage,
             this.toolStripSeparator1,
             this.mnuNext,
-            this.mnuPrevious});
+            this.mnuPrevious,
+            this.toolStripSeparator6,
+            this.mnuPixelData,
+            this.mnuPhotoProps});
             this.ctxMenuPhoto.Name = "ctxMenuPhoto";
-            this.ctxMenuPhoto.Size = new System.Drawing.Size(193, 76);
+            this.ctxMenuPhoto.Size = new System.Drawing.Size(193, 148);
             this.ctxMenuPhoto.Opening += new System.ComponentModel.CancelEventHandler(this.ctxMenuPhoto_Opening);
             // 
             // mnuImage
@@ -154,6 +161,18 @@
             this.mnuPrevious.Text = "&Previous";
             this.mnuPrevious.Click += new System.EventHandler(this.mnuPrevious_Click);
             // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(189, 6);
+            // 
+            // mnuPixelData
+            // 
+            this.mnuPixelData.Name = "mnuPixelData";
+            this.mnuPixelData.Size = new System.Drawing.Size(192, 22);
+            this.mnuPixelData.Text = "Pi&xel Data...";
+            this.mnuPixelData.Click += new System.EventHandler(this.mnuPixelData_Click);
+            // 
             // mnuView
             // 
             this.mnuView.DropDown = this.ctxMenuPhoto;
@@ -198,7 +217,7 @@
             this.mnuFileNew.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuFileNew.Name = "mnuFileNew";
             this.mnuFileNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.mnuFileNew.Size = new System.Drawing.Size(152, 22);
+            this.mnuFileNew.Size = new System.Drawing.Size(146, 22);
             this.mnuFileNew.Text = "&New";
             this.mnuFileNew.Click += new System.EventHandler(this.mnuFileNew_Click);
             // 
@@ -230,7 +249,7 @@
             // mnuFiveSaveAs
             // 
             this.mnuFiveSaveAs.Name = "mnuFiveSaveAs";
-            this.mnuFiveSaveAs.Size = new System.Drawing.Size(152, 22);
+            this.mnuFiveSaveAs.Size = new System.Drawing.Size(146, 22);
             this.mnuFiveSaveAs.Text = "Save &As";
             this.mnuFiveSaveAs.Click += new System.EventHandler(this.mnuFileExit_Click);
             // 
@@ -392,6 +411,13 @@
             this.sttAlbumPos.Size = new System.Drawing.Size(34, 19);
             this.sttAlbumPos.Text = "1 / 1";
             // 
+            // mnuPhotoProps
+            // 
+            this.mnuPhotoProps.Name = "mnuPhotoProps";
+            this.mnuPhotoProps.Size = new System.Drawing.Size(192, 22);
+            this.mnuPhotoProps.Text = "Phot&o Properties";
+            this.mnuPhotoProps.Click += new System.EventHandler(this.mnuPhotoProps_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -451,6 +477,9 @@
         private System.Windows.Forms.ToolStripMenuItem mnuPrevious;
         private System.Windows.Forms.ToolStripMenuItem mnuEditAdd;
         private System.Windows.Forms.ToolStripMenuItem mnuEditRemove;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripMenuItem mnuPixelData;
+        private System.Windows.Forms.ToolStripMenuItem mnuPhotoProps;
     }
 }
 

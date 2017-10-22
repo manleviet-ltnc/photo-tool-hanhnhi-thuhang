@@ -7,8 +7,42 @@ using System.Threading.Tasks;
 
 namespace Manning.MyPhotoAlbum
 {
-   public class PhotoAlbum : Collection<Photograph>,  IDisposable 
+    public class PhotoAlbum : Collection<Photograph>, IDisposable
     {
+        public enum DescriptorOption { FileName, Caption, DakeTaken }
+
+        private string _title;
+        public string Title
+        {
+            get { return _title; }
+            set
+            {
+                _title = value;
+                HasChaged = true;
+            }
+        }
+
+        private DescriptorOption _descriptor;
+        public DescriptorOption PhotoDescriptor
+        {
+            get { return _descriptor; }
+            set
+            {
+                _descriptor = value;
+                HasChaged = true;
+            }
+        }
+        private string _pwd;
+        public string Password
+        {
+            get { return _pwd; }
+            set
+            {
+                _pwd = value;
+            }
+        }
+
+
         private bool _hasChanged = false;
         public bool HasChaged
         {
@@ -30,6 +64,11 @@ namespace Manning.MyPhotoAlbum
             }
         }
 
+        public PhotoAlbum()
+        {
+            ClearSettings();
+        }
+
         public Photograph Add(string filename)
         {
             Photograph p = new Photograph(filename);
@@ -37,14 +76,20 @@ namespace Manning.MyPhotoAlbum
             return p;
         }
 
+        private void ClearSettings()
+        {
+            _title = null;
+            _descriptor = DescriptorOption.Caption;
+        }
+
         protected override void ClearItems()
         {
-            if(Count > 0)
+            if (Count > 0)
             {
                 Dispose();
                 base.ClearItems();
                 HasChaged = true;
-            }   
+            }
         }
 
         protected override void InsertItem(int index, Photograph item)
@@ -68,8 +113,30 @@ namespace Manning.MyPhotoAlbum
 
         public void Dispose()
         {
+            ClearSettings();
             foreach (Photograph p in this)
                 p.Dispose();
         }
+
+        public string GetDescriptor(Photograph photo)
+        {
+            switch (PhotoDescriptor)
+            {
+                case DescriptorOption.Caption:
+                    return photo.Caption;
+                case DescriptorOption.DakeTaken:
+                    return photo.DateTaken.ToLongDateString();
+                case DescriptorOption.FileName:
+                    return photo.FileName;
+            }
+
+            throw new ArgumentException("Unrecognized photo descriptor option.");
+        }
+
+        public string GetDescription(int index)
+        {
+            return GetDescriptor(this[index]);
+        }
     }
 }
+

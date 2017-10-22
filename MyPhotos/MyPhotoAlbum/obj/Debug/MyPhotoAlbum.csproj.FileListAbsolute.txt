@@ -10,3 +10,9 @@ C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-
 C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
 C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
 C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\MyPhotos\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\MyPhotos\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\MyPhotos\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\MyPhotos\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\MyPhotos\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\MyPhotos\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb

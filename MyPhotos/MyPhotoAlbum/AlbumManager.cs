@@ -96,14 +96,8 @@ namespace Manning.MyPhotoAlbum
             _album = new PhotoAlbum();
         }
 
-        public AlbumManager(string name): this()
-        {
-            _name =  name;
-            _album = AlbumStorage.ReadAlbum(name);
+       
 
-            if (Album.Count > 0)
-                Index = 0;
-        }
 
         public Photograph Current
         {

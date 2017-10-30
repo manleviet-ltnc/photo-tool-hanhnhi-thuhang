@@ -7,11 +7,11 @@ using System.IO;
 
 namespace Manning.MyPhotoAlbum
 {
-    public class AlbumStorageExpection : Exception
+    public class AlbumStorageException : Exception
     {
-        public AlbumStorageExpection() : base() { }
-        public AlbumStorageExpection(string msg) : base(msg) { }
-        public AlbumStorageExpection(string msg, Exception inner) : base(msg, inner) { }
+        public AlbumStorageException() : base() { }
+        public AlbumStorageException(string msg) : base(msg) { }
+        public AlbumStorageException(string msg, Exception inner) : base(msg, inner) { }
     }
 
     public class AlbumStorage
@@ -45,17 +45,24 @@ namespace Manning.MyPhotoAlbum
                 foreach (Photograph p in album)
                     WritePhoto(sw, p);
 
-                album.HasChaged = false;
+                album.HasChanged = false;
             }
             catch (UnauthorizedAccessException uax)
             {
+<<<<<<< HEAD
+                throw new AlbumStorageException("Unable to access album " + path, uax);
+=======
                 throw new AlbumStorageExpection("Unable to access album " + path, uax);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             }
             finally
             {
                 if (sw != null)
                     sw.Close();
+<<<<<<< HEAD
+=======
 
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             }
         }
 
@@ -86,7 +93,11 @@ namespace Manning.MyPhotoAlbum
                     sr = new StreamReader(path);
                     version = sr.ReadLine();
                     if (version.EndsWith("e"))
+<<<<<<< HEAD
+                        throw new AlbumStorageException("A password is required to open the album");
+=======
                         throw new AlbumStorageExpection("A password is required to open th album");
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                 }
                 else
                 {
@@ -99,19 +110,30 @@ namespace Manning.MyPhotoAlbum
                         cr.Close();
                         sr = new StreamReader(path);
                         version = sr.ReadLine();
+<<<<<<< HEAD
+=======
 
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                     }
                     else
                     {
                         string checkLine = cr.ReadLine();
                         if (checkLine != password)
+<<<<<<< HEAD
+                            throw new AlbumStorageException("The given password is not valid");
+=======
                             throw new AlbumStorageExpection("The given password is not valid");
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                         sr = cr;
                     }
                 }
 
                 PhotoAlbum album = new PhotoAlbum();
+<<<<<<< HEAD
+                switch(version)
+=======
                 switch (version)
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                 {
                     case "63":
                         ReadAlbumV63(sr, album);
@@ -121,19 +143,34 @@ namespace Manning.MyPhotoAlbum
                         ReadAlbumV91(sr, album);
                         break;
                     default:
+<<<<<<< HEAD
+                        throw new AlbumStorageException("Unrecognized album version");
+                }
+
+                album.HasChanged = false;
+=======
                         throw new AlbumStorageExpection("Unrecognizedalbum version");
                 }
 
                 album.HasChaged = false;
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                 return album;
             }
             catch (System.Security.Cryptography.CryptographicException cex)
             {
+<<<<<<< HEAD
+                throw new AlbumStorageException("Unable to decrypt album " + path, cex);
+            }
+            catch (FileNotFoundException fnx)
+            {
+                throw new AlbumStorageException("Unable to read album " + path, fnx);
+=======
                 throw new AlbumStorageExpection("Unable to decrypt album " + path, cex);
             }
             catch (FileNotFoundException fnx)
             {
                 throw new AlbumStorageExpection("Unable to read album " + path, fnx);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             }
             finally
             {
@@ -198,8 +235,16 @@ namespace Manning.MyPhotoAlbum
             }
             catch (FileNotFoundException fnx)
             {
+<<<<<<< HEAD
+                throw new AlbumStorageException("Unable to find album " + path, fnx);
+            }
+        }
+    }
+}
+=======
                 throw new AlbumStorageExpection("Unable to find album" + path, fnx);
             }
         }
     }
 }          
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42

@@ -18,11 +18,6 @@ namespace Manning.MyPhotoControls
             InitializeComponent();
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnClose_Click(object sender, EventArgs e)
         {
             Close();
@@ -42,9 +37,7 @@ namespace Manning.MyPhotoControls
             SetPixelData(0, 0, 0, 0, 0);
         }
 
-        public void UpdatePixelData(int xPos, int yPos, Bitmap bmp,
-                                     Rectangle displayRect, Rectangle bmpRect,
-                                     PictureBoxSizeMode sizeMode)
+        public void UpdatePixelData(int xPos, int yPos, Bitmap bmp, Rectangle displayRect, Rectangle bmpRect, PictureBoxSizeMode sizeMode)
         {
             // Determine (x, y) position within image
             int x = 0, y = 0;
@@ -53,8 +46,12 @@ namespace Manning.MyPhotoControls
             {
                 case PictureBoxSizeMode.AutoSize:
                 case PictureBoxSizeMode.CenterImage:
+<<<<<<< HEAD
+                    throw new NotSupportedException("The AutoSize and CenterImage size modes are not supported at this time.");
+=======
                     throw new NotSupportedException("The AutoSize and CenterImage size modes"
                                                      + "are not suppored at this time.");
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                 case PictureBoxSizeMode.Normal:
                     // Rectangle coords are image coords
                     if (xPos >= bmp.Width || yPos >= bmp.Height)
@@ -80,8 +77,11 @@ namespace Manning.MyPhotoControls
                     break;
             }
 
-                      Color c = bmp.GetPixel(x, y);
-                      SetPixelData(x, y, c.R, c.G, c.B);
+            // Extract color at calculated position
+            Color c = bmp.GetPixel(x, y);
+
+            // Update dialog values
+            SetPixelData(x, y, c.R, c.G, c.B);
         }
     }
 }

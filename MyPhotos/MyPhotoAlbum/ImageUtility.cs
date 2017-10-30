@@ -7,19 +7,17 @@ using System.Drawing;
 
 namespace Manning.MyPhotoAlbum
 {
-   public class ImageUtility
+    public class ImageUtility
     {
         public static Rectangle ScaleToFit(Bitmap bmp, Rectangle targetArea)
         {
             Rectangle result = new Rectangle(targetArea.Location, targetArea.Size);
-            
             // Determine best fit: width or height
             if (result.Height * bmp.Width > result.Width * bmp.Height)
             {
                 // Final width should match target,
                 // determine and center height
                 result.Height = result.Width * bmp.Height / bmp.Width;
-
                 result.Y += (targetArea.Height - result.Height) / 2;
             }
             else

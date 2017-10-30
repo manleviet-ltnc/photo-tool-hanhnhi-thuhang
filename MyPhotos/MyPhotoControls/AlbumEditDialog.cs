@@ -54,11 +54,19 @@ namespace Manning.MyPhotoControls
                 case PhotoAlbum.DescriptorOption.Caption:
                     rbtnCaption.Checked = true;
                     break;
+<<<<<<< HEAD
+                case PhotoAlbum.DescriptorOption.DateTaken:
+                    rbtnDateTaken.Checked = true;
+                    break;
+                case PhotoAlbum.DescriptorOption.FileName:
+                    rbtnFileName.Checked = true;
+=======
                 case PhotoAlbum.DescriptorOption.DakeTaken:
                     rbtnDateTaken.Checked = true;
                     break;
                 case PhotoAlbum.DescriptorOption.FileName:
                     rbtnFiLeName.Checked = true;
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                     break;
             }
 
@@ -84,22 +92,39 @@ namespace Manning.MyPhotoControls
             {
                 if (!ValidPassword())
                 {
+<<<<<<< HEAD
+                    DialogResult result = MessageBox.Show("The current password is blank "
+                                                          + "or the two password entries "
+                                                          + "do not match.",
+                                                          "Invalid Password",
+                                                          MessageBoxButtons.OK,
+                                                          MessageBoxIcon.Information);
+=======
                     DialogResult result = MessageBox.Show("The current password is blank  "
                                                            + "or the two password entries "
                                                            + "do not match.",
                                                            "Invalid Password",
                                                            MessageBoxButtons.OK,
                                                            MessageBoxIcon.Information);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
 
                     e.Cancel = true;
                 }
 
                 if (!e.Cancel)
+<<<<<<< HEAD
+                    SaveSettings();
+            }
+        }
+
+        private void SaveSettings()
+=======
                     Savettings();
             }
         }
 
         private void Savettings()
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         {
             PhotoAlbum album = Manager.Album;
             if (album != null)
@@ -109,8 +134,13 @@ namespace Manning.MyPhotoControls
                 if (rbtnCaption.Checked)
                     album.PhotoDescriptor = PhotoAlbum.DescriptorOption.Caption;
                 else if (rbtnDateTaken.Checked)
+<<<<<<< HEAD
+                    album.PhotoDescriptor = PhotoAlbum.DescriptorOption.DateTaken;
+                else if (rbtnFileName.Checked)
+=======
                     album.PhotoDescriptor = PhotoAlbum.DescriptorOption.DakeTaken;
                 else if (rbtnFiLeName.Checked)
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                     album.PhotoDescriptor = PhotoAlbum.DescriptorOption.FileName;
 
                 if (cbxPassword.Checked && ValidPassword())
@@ -133,7 +163,11 @@ namespace Manning.MyPhotoControls
                 errorProvider1.SetError(txtPassword, "The assigned password cannot be blank");
         }
 
+<<<<<<< HEAD
+        private void txtConfirm_Validating(object sender, CancelEventArgs e)
+=======
         private void txtConfirm_Validated(object sender, EventArgs e)
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         {
             if (txtConfirm.Text == txtPassword.Text)
                 errorProvider1.SetError(txtConfirm, "");
@@ -142,4 +176,7 @@ namespace Manning.MyPhotoControls
         }
     }
 }
+<<<<<<< HEAD
+=======
        
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42

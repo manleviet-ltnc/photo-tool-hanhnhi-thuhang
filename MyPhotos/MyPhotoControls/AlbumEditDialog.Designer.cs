@@ -36,7 +36,11 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rbtnDateTaken = new System.Windows.Forms.RadioButton();
             this.rbtnCaption = new System.Windows.Forms.RadioButton();
+<<<<<<< HEAD
+            this.rbtnFileName = new System.Windows.Forms.RadioButton();
+=======
             this.rbtnFiLeName = new System.Windows.Forms.RadioButton();
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.cbxPassword = new System.Windows.Forms.CheckBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblConfirm = new System.Windows.Forms.Label();
@@ -54,12 +58,20 @@
             this.panel1.Controls.Add(this.txtAlbumFile);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
+<<<<<<< HEAD
+            this.panel1.Size = new System.Drawing.Size(260, 58);
+=======
             this.panel1.Size = new System.Drawing.Size(259, 66);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< HEAD
+            this.label1.Location = new System.Drawing.Point(7, 7);
+=======
             this.label1.Location = new System.Drawing.Point(16, 12);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 0;
@@ -69,7 +81,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
+<<<<<<< HEAD
+            this.label2.Location = new System.Drawing.Point(35, 33);
+=======
             this.label2.Location = new System.Drawing.Point(44, 39);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 1;
@@ -78,30 +94,52 @@
             // 
             // txtAlbumFile
             // 
+<<<<<<< HEAD
+            this.txtAlbumFile.Location = new System.Drawing.Point(71, 4);
+            this.txtAlbumFile.Name = "txtAlbumFile";
+            this.txtAlbumFile.ReadOnly = true;
+            this.txtAlbumFile.Size = new System.Drawing.Size(184, 20);
+=======
             this.txtAlbumFile.Location = new System.Drawing.Point(83, 9);
             this.txtAlbumFile.Name = "txtAlbumFile";
             this.txtAlbumFile.ReadOnly = true;
             this.txtAlbumFile.Size = new System.Drawing.Size(171, 20);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.txtAlbumFile.TabIndex = 2;
             this.toolTip1.SetToolTip(this.txtAlbumFile, "Album file name");
             // 
             // txtTitle
             // 
+<<<<<<< HEAD
+            this.txtTitle.Location = new System.Drawing.Point(71, 30);
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(184, 20);
+            this.txtTitle.TabIndex = 3;
+            this.toolTip1.SetToolTip(this.txtTitle, "Title for the album");
+=======
             this.txtTitle.Location = new System.Drawing.Point(83, 36);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(171, 20);
             this.txtTitle.TabIndex = 3;
             this.toolTip1.SetToolTip(this.txtTitle, "Ttile for the album");
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.txtTitle.TextChanged += new System.EventHandler(this.txtTitle_TextChanged);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.rbtnDateTaken);
             this.groupBox1.Controls.Add(this.rbtnCaption);
+<<<<<<< HEAD
+            this.groupBox1.Controls.Add(this.rbtnFileName);
+            this.groupBox1.Location = new System.Drawing.Point(12, 77);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(260, 47);
+=======
             this.groupBox1.Controls.Add(this.rbtnFiLeName);
             this.groupBox1.Location = new System.Drawing.Point(13, 85);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(259, 61);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Phot&o Description";
@@ -109,19 +147,32 @@
             // rbtnDateTaken
             // 
             this.rbtnDateTaken.AutoSize = true;
+<<<<<<< HEAD
+            this.rbtnDateTaken.Location = new System.Drawing.Point(172, 20);
+            this.rbtnDateTaken.Name = "rbtnDateTaken";
+            this.rbtnDateTaken.Size = new System.Drawing.Size(82, 17);
+            this.rbtnDateTaken.TabIndex = 2;
+            this.rbtnDateTaken.TabStop = true;
+            this.rbtnDateTaken.Text = "&Date Taken";
+=======
             this.rbtnDateTaken.Location = new System.Drawing.Point(151, 20);
             this.rbtnDateTaken.Name = "rbtnDateTaken";
             this.rbtnDateTaken.Size = new System.Drawing.Size(93, 17);
             this.rbtnDateTaken.TabIndex = 2;
             this.rbtnDateTaken.TabStop = true;
             this.rbtnDateTaken.Text = "@Date Taken";
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.toolTip1.SetToolTip(this.rbtnDateTaken, "When set, describes each photo using its date taken");
             this.rbtnDateTaken.UseVisualStyleBackColor = true;
             // 
             // rbtnCaption
             // 
             this.rbtnCaption.AutoSize = true;
+<<<<<<< HEAD
+            this.rbtnCaption.Location = new System.Drawing.Point(96, 20);
+=======
             this.rbtnCaption.Location = new System.Drawing.Point(84, 20);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.rbtnCaption.Name = "rbtnCaption";
             this.rbtnCaption.Size = new System.Drawing.Size(61, 17);
             this.rbtnCaption.TabIndex = 1;
@@ -130,6 +181,19 @@
             this.toolTip1.SetToolTip(this.rbtnCaption, "When set, describes each photo using its caption");
             this.rbtnCaption.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+            // rbtnFileName
+            // 
+            this.rbtnFileName.AutoSize = true;
+            this.rbtnFileName.Location = new System.Drawing.Point(11, 20);
+            this.rbtnFileName.Name = "rbtnFileName";
+            this.rbtnFileName.Size = new System.Drawing.Size(70, 17);
+            this.rbtnFileName.TabIndex = 0;
+            this.rbtnFileName.TabStop = true;
+            this.rbtnFileName.Text = "File &name";
+            this.toolTip1.SetToolTip(this.rbtnFileName, "When set, describes each photo using its filename");
+            this.rbtnFileName.UseVisualStyleBackColor = true;
+=======
             // rbtnFiLeName
             // 
             this.rbtnFiLeName.AutoSize = true;
@@ -141,11 +205,16 @@
             this.rbtnFiLeName.Text = "File &name";
             this.toolTip1.SetToolTip(this.rbtnFiLeName, "When set, describes each photo using its filename");
             this.rbtnFiLeName.UseVisualStyleBackColor = true;
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             // 
             // cbxPassword
             // 
             this.cbxPassword.AutoSize = true;
+<<<<<<< HEAD
+            this.cbxPassword.Location = new System.Drawing.Point(13, 131);
+=======
             this.cbxPassword.Location = new System.Drawing.Point(12, 152);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.cbxPassword.Name = "cbxPassword";
             this.cbxPassword.Size = new System.Drawing.Size(124, 17);
             this.cbxPassword.TabIndex = 5;
@@ -157,7 +226,11 @@
             // txtPassword
             // 
             this.txtPassword.Enabled = false;
+<<<<<<< HEAD
+            this.txtPassword.Location = new System.Drawing.Point(143, 129);
+=======
             this.txtPassword.Location = new System.Drawing.Point(143, 153);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(129, 20);
             this.txtPassword.TabIndex = 6;
@@ -169,7 +242,11 @@
             // 
             this.lblConfirm.AutoSize = true;
             this.lblConfirm.Enabled = false;
+<<<<<<< HEAD
+            this.lblConfirm.Location = new System.Drawing.Point(39, 158);
+=======
             this.lblConfirm.Location = new System.Drawing.Point(42, 179);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.lblConfirm.Name = "lblConfirm";
             this.lblConfirm.Size = new System.Drawing.Size(94, 13);
             this.lblConfirm.TabIndex = 7;
@@ -179,13 +256,21 @@
             // txtConfirm
             // 
             this.txtConfirm.Enabled = false;
+<<<<<<< HEAD
+            this.txtConfirm.Location = new System.Drawing.Point(143, 155);
+=======
             this.txtConfirm.Location = new System.Drawing.Point(143, 179);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             this.txtConfirm.Name = "txtConfirm";
             this.txtConfirm.Size = new System.Drawing.Size(129, 20);
             this.txtConfirm.TabIndex = 8;
             this.toolTip1.SetToolTip(this.txtConfirm, "Confirms password for album");
             this.txtConfirm.UseSystemPasswordChar = true;
+<<<<<<< HEAD
+            this.txtConfirm.Validating += new System.ComponentModel.CancelEventHandler(this.txtConfirm_Validating);
+=======
             this.txtConfirm.Validated += new System.EventHandler(this.txtConfirm_Validated);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             // 
             // errorProvider1
             // 
@@ -227,7 +312,11 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rbtnDateTaken;
         private System.Windows.Forms.RadioButton rbtnCaption;
+<<<<<<< HEAD
+        private System.Windows.Forms.RadioButton rbtnFileName;
+=======
         private System.Windows.Forms.RadioButton rbtnFiLeName;
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         private System.Windows.Forms.CheckBox cbxPassword;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label lblConfirm;

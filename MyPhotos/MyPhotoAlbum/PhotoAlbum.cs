@@ -9,7 +9,11 @@ namespace Manning.MyPhotoAlbum
 {
     public class PhotoAlbum : Collection<Photograph>, IDisposable
     {
+<<<<<<< HEAD
+        public enum DescriptorOption { FileName, Caption, DateTaken }
+=======
         public enum DescriptorOption { FileName, Caption, DakeTaken }
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
 
         private string _title;
         public string Title
@@ -18,7 +22,11 @@ namespace Manning.MyPhotoAlbum
             set
             {
                 _title = value;
+<<<<<<< HEAD
+                HasChanged = true;
+=======
                 HasChaged = true;
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             }
         }
 
@@ -29,6 +37,22 @@ namespace Manning.MyPhotoAlbum
             set
             {
                 _descriptor = value;
+<<<<<<< HEAD
+                HasChanged = true;
+            }
+        }
+         public string GetDescriptorFormat()
+        {
+            switch (PhotoDescriptor)
+            {
+                case DescriptorOption.Caption: return "c";
+                case DescriptorOption.DateTaken: return "d";
+                case DescriptorOption.FileName:
+                default:
+                    return "f";
+            }
+        }
+=======
                 HasChaged = true;
             }
         }
@@ -43,8 +67,9 @@ namespace Manning.MyPhotoAlbum
         }
 
 
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         private bool _hasChanged = false;
-        public bool HasChaged
+        public bool HasChanged
         {
             get
             {
@@ -88,27 +113,31 @@ namespace Manning.MyPhotoAlbum
             {
                 Dispose();
                 base.ClearItems();
+<<<<<<< HEAD
+                HasChanged = true;
+=======
                 HasChaged = true;
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             }
         }
 
         protected override void InsertItem(int index, Photograph item)
         {
             base.InsertItem(index, item);
-            HasChaged = true;
+            HasChanged = true;
         }
 
         protected override void RemoveItem(int index)
         {
             Items[index].Dispose();
             base.RemoveItem(index);
-            HasChaged = true;
+            HasChanged = true;
         }
 
         protected override void SetItem(int index, Photograph item)
         {
             base.SetItem(index, item);
-            HasChaged = true;
+            HasChanged = true;
         }
 
         public void Dispose()
@@ -118,14 +147,23 @@ namespace Manning.MyPhotoAlbum
                 p.Dispose();
         }
 
+<<<<<<< HEAD
+        public string GetDescription(Photograph photo)
+=======
         public string GetDescriptor(Photograph photo)
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         {
             switch (PhotoDescriptor)
             {
                 case DescriptorOption.Caption:
                     return photo.Caption;
+<<<<<<< HEAD
+                case DescriptorOption.DateTaken:
+                    return photo.DateTaken.ToShortDateString();
+=======
                 case DescriptorOption.DakeTaken:
                     return photo.DateTaken.ToLongDateString();
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                 case DescriptorOption.FileName:
                     return photo.FileName;
             }
@@ -135,7 +173,11 @@ namespace Manning.MyPhotoAlbum
 
         public string GetDescription(int index)
         {
+<<<<<<< HEAD
+            return GetDescription(this[index]);
+=======
             return GetDescriptor(this[index]);
+>>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         }
     }
 }

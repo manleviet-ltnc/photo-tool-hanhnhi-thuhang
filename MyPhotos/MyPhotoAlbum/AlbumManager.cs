@@ -28,7 +28,6 @@ namespace Manning.MyPhotoAlbum
             }
         }
 
-<<<<<<< HEAD
         private StringCollection _photographers = null;
         public StringCollection Photographers
         {
@@ -53,8 +52,6 @@ namespace Manning.MyPhotoAlbum
             }
         }
 
-=======
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         static AlbumManager()
         {
             _defaultPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal) + @"\Albums";
@@ -78,22 +75,6 @@ namespace Manning.MyPhotoAlbum
             _name = name;
             _album = AlbumStorage.ReadAlbum(name, pwd);
             Password = pwd;
-            if (Album.Count > 0)
-                Index = 0;
-        }
-        public AlbumManager(string name) : this()
-            {
-            _name = name;
-            _album = AlbumStorage.ReadAlbum(name);
-            if (Album.Count > 0)
-                Index = 0;
-        }
-        public AlbumManager(string name, string pwd) : this()
-        {
-            _name = name;
-            _album = AlbumStorage.ReadAlbum(name, pwd);
-            if (Album.Count > 0)
-                Password = pwd;
             if (Album.Count > 0)
                 Index = 0;
         }
@@ -140,18 +121,6 @@ namespace Manning.MyPhotoAlbum
             get { return _album; }
         }
 
-<<<<<<< HEAD
-        
-=======
-        public AlbumManager()
-        {
-            _album = new PhotoAlbum();
-        }
-
-       
-
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
-
         public Photograph Current
         {
             get
@@ -182,10 +151,6 @@ namespace Manning.MyPhotoAlbum
             if (FullName == null)
                 throw new InvalidOperationException("Unable to save album with no name");
             AlbumStorage.WriteAlbum(Album, FullName, Password);
-<<<<<<< HEAD
-=======
-            
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         }
 
         public void Save(string name, bool overwrite)

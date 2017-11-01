@@ -25,3 +25,9 @@ C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\MyPhotos\p
 C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\MyPhotos\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
 C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\MyPhotos\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
 >>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojResolveAssemblyReference.cache
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb

@@ -164,10 +164,5 @@ namespace Manning.MyPhotoAlbum
         {
             ReleaseImage();
         }
-
-        public string ToString(string format, IFormatProvider formatProvider)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

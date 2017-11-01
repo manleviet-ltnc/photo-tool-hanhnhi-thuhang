@@ -31,12 +31,8 @@ namespace Manning.MyPhotoControls
             // Define dialog results for link labels
             IButtonControl btn = (IButtonControl)lnkOK;
             btn.DialogResult = DialogResult.OK;
-<<<<<<< HEAD
             btn = (IButtonControl)lnkCancel;
             btn.DialogResult = DialogResult.Cancel;
-=======
-            btn = (IButtonControl)lnkOK;
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         }
 
         private void lnk_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

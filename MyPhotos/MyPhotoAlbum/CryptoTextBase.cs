@@ -5,11 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Security.Cryptography;
-<<<<<<< HEAD
-
-=======
-using System.Text;
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
 
 namespace Manning.MyPhotoAlbum
 {
@@ -33,21 +28,13 @@ namespace Manning.MyPhotoAlbum
             get { return _cs; }
             set { _cs = value; }
         }
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         public CryptoTextBase(string password)
         {
             if (password == null || password.Length == 0)
                 throw new ArgumentNullException("password");
             _pwd = Encoding.UTF8.GetBytes(password);
-<<<<<<< HEAD
         }
-=======
-        } 
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
 
         /// <summary>
         /// Encrypt or decrypt a given string
@@ -59,29 +46,20 @@ namespace Manning.MyPhotoAlbum
 
             MStream = new MemoryStream();
 
-<<<<<<< HEAD
             // Create default symmetric algorithm for cryption
-=======
-            // Create default symmetric algorithm.Create();
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             SymmetricAlgorithm alg = SymmetricAlgorithm.Create();
             PasswordDeriveBytes pdb = new PasswordDeriveBytes(Password, SaltBytes);
             alg.Key = pdb.GetBytes(alg.KeySize / 8);
             alg.IV = pdb.GetBytes(alg.BlockSize / 8);
             ICryptoTransform transform = encrypt ? alg.CreateEncryptor() : alg.CreateDecryptor();
 
-<<<<<<< HEAD
             // Create cryptographic stream
-=======
-            // Create cryptographic strean
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             CStream = new CryptoStream(MStream, transform, CryptoStreamMode.Write);
 
             // Encrypt data and flush result to buffer
             CStream.Write(bytes, 0, bytes.Length);
             CStream.FlushFinalBlock();
 
-<<<<<<< HEAD
             // Retrieve the resulting bytes
             byte[] result = MStream.ToArray();
 
@@ -89,15 +67,4 @@ namespace Manning.MyPhotoAlbum
             return encrypt ? Convert.ToBase64String(result) : Encoding.UTF8.GetString(result);
         }
     }
-=======
-            // Retrieve the result to a string
-            byte[] result = MStream.ToArray();
-
-            // Covert result to a string
-            return encrypt ? Convert.ToBase64String(result) : Encoding.UTF8.GetString(result);
-
-        }
-    } 
-
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
 }

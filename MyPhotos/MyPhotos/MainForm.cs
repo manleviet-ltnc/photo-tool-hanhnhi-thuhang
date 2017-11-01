@@ -134,19 +134,11 @@ namespace MyPhotos
             {
                 sttInfo.Text = Manager.Current.Caption;
                 sttImageSize.Text = String.Format("{0:#}x{1:#}",
-<<<<<<< HEAD
                                                   pbxPhoto.Image.Width,
                                                   pbxPhoto.Image.Height);
                 sttAlbumPos.Text = String.Format(" {0:0}/{1:0} ",
                                                  Manager.Index + 1,
                                                  Manager.Album.Count);
-=======
-                                                 pbxPhoto.Image.Width,
-                                                 pbxPhoto.Image.Height);
-                sttAlbumPos.Text = String.Format("{0:0}/{1:0}",
-                                                Manager.Index + 1,
-                                                Manager.Album.Count);
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             }
             else
             {
@@ -167,36 +159,13 @@ namespace MyPhotos
             string password = null;
             if (AlbumController.OpenAlbumDialog(ref path, ref password))
             {
-<<<<<<< HEAD
-=======
-                string path = dlg.FileName;
-                string pwd = null;
-
-                // Get password if encrypted 
-                if (AlbumStorage.IsEncrypted(path))
-                {
-                    using (AlbumPasswordDialog pwdDlg = new AlbumPasswordDialog())
-                    {
-                      if (  pwdDlg.ShowDialog() !=DialogResult.OK)
-                            return; // Open canclled
-
-                        pwd = pwdDlg.Password;
-                    }
-                }
-
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                 if (!SaveAndCloseAlbum())
                     return;
 
                 try
                 {
                     // Open the new album
-<<<<<<< HEAD
                     Manager = new AlbumManager(path, password);
-=======
-                    // TODO: handle invalid album file
-                    Manager = new AlbumManager(path, pwd);
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                 }
                 catch (AlbumStorageException aex)
                 {
@@ -221,11 +190,7 @@ namespace MyPhotos
                                            + "Do you wish to save the album "
                                            + "under a alternate name?",
                                            name, aex.Message);
-<<<<<<< HEAD
                 DialogResult result = MessageBox.Show(msg, "Unable to Save", MessageBoxButtons.YesNo,
-=======
-                DialogResult result = MessageBox.Show(msg, "Unable to save", MessageBoxButtons.YesNo,
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                                                       MessageBoxIcon.Error, MessageBoxDefaultButton.Button2);
 
                 if (result == DialogResult.Yes)
@@ -264,18 +229,6 @@ namespace MyPhotos
             else if (result == DialogResult.Cancel)
                 return false;
 
-<<<<<<< HEAD
-=======
-                DialogResult result = MessageBox.Show(this, msg, "Save Changes?",
-                                                      MessageBoxButtons.YesNoCancel,
-                                                      MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
-                    SaveAlbum();
-                else if (result == DialogResult.Cancel)
-                    return false;
-
-            }
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
             if (Manager.Album != null)
                 Manager.Album.Dispose();
 
@@ -362,11 +315,7 @@ namespace MyPhotos
             mnuNext.Enabled = (Manager.Index < Manager.Album.Count - 1);
             mnuPrevious.Enabled = (Manager.Index > 0);
             mnuPhotoProps.Enabled = (Manager.Current != null);
-<<<<<<< HEAD
             mnuAlbumProps.Enabled = (Manager.Album != null);
-=======
-            mnuPhotoProps.Enabled = (Manager.Current != null);
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -451,43 +400,6 @@ namespace MyPhotos
                     break;
             }
             base.OnKeyPress(e);
-<<<<<<< HEAD
-=======
-        }
-
-        protected override void OnKeyDown(KeyEventArgs e)
-        {
-            switch (e.KeyCode)
-            {
-                case Keys.PageUp:
-                    mnuPrevious.PerformClick();
-                    e.Handled = true;
-                    break;
-                case Keys.PageDown:
-                    mnuNext.PerformClick();
-                    e.Handled = true;
-                    break;
-            }
-            base.OnKeyDown(e);
-        }
-
-        private const int WM_KEYDOWN = 0x100;
-        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
-        {
-            if (msg.Msg == WM_KEYDOWN)
-            {
-                switch (keyData)
-                {
-                    case Keys.Tab:
-                        mnuNext.PerformClick();
-                        return true;
-                    case Keys.Shift | Keys.Tab:
-                        mnuPrevious.PerformClick();
-                        return true;
-                }
-            }
-            return base.ProcessCmdKey(ref msg, keyData);
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         }
 
         protected override void OnKeyDown(KeyEventArgs e)

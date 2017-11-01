@@ -7,11 +7,7 @@ namespace Manning.MyPhotoAlbum
     class CryptoWriter : StreamWriter
     {
         private CryptoTextBase _base;
-<<<<<<< HEAD
         private CryptoTextBase CryptoBase
-=======
-        private CryptoTextBase CrytoBase
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         {
             get { return _base; }
         }
@@ -28,16 +24,10 @@ namespace Manning.MyPhotoAlbum
 
         public override void WriteLine(string value)
         {
-<<<<<<< HEAD
             string encrypted = CryptoBase.ProcessText(value, true);
             base.WriteLine(encrypted);
         }
 
-=======
-            string encrypted = CrytoBase.ProcessText(value, true);
-            base.WriteLine(encrypted);
-        }
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         public void WriteUnencryptedLine(string value)
         {
             base.WriteLine(value);

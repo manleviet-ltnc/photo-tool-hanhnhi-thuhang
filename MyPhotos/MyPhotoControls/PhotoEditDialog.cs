@@ -107,12 +107,7 @@ namespace Manning.MyPhotoControls
             Text = txtCaption.Text + " - Properties";
         }
 
-<<<<<<< HEAD
         private static class CurrentDate
-=======
-
-        private class CurrentDate
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         {
             public static DateTime Parse(string input)
             {
@@ -138,17 +133,11 @@ namespace Manning.MyPhotoControls
             }
         }
 
-<<<<<<< HEAD
         private void cmbPhotographer_Leave(object sender, EventArgs e)
         {
             string person = cmbPhotographer.Text;
             if (!cmbPhotographer.Items.Contains(person))
                 cmbPhotographer.Items.Add(person);
-=======
-        private void PhotoEditDialog_TextChanged(object sender, EventArgs e)
-        {
-
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         }
     }
 }

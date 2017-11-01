@@ -9,22 +9,14 @@ using System.Collections;
 
 namespace Manning.MyPhotoControls
 {
-<<<<<<< HEAD
     [ProvideProperty("FlybyText", typeof(ToolStripMenuItem))]
     public class FlybyTextProvider : Component, IExtenderProvider
     {
         public FlybyTextProvider(IContainer container)
-=======
-        [ProvideProperty("FlybyText", typeof(ToolStripMenuItem))]
-        public class FlybyTextProvider : Component, IExtenderProvider
-        {
-            public FlybyTextProvider(IContainer container)
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
         {
             container.Add(this);
         }
 
-<<<<<<< HEAD
         private Hashtable _flybyTable = new Hashtable();
         private Hashtable FlybyTable
         {
@@ -65,54 +57,11 @@ namespace Manning.MyPhotoControls
             }
             else
             {
-=======
-            private Hashtable _flybyTable = new Hashtable();
-            private Hashtable FlybyTable
-            {
-                get { return _flybyTable; }
-            }
-
-            private ToolStripStatusLabel _statusLabel = null;
-            public ToolStripStatusLabel StatusLabel
-            {
-                get { return _statusLabel; }
-                set { _statusLabel = value; }
-            }
-
-            private string _currentText = null;
-            private string CurrentStatusText
-            {
-              get { return _currentText; }
-              set { _currentText = value; }
-            }
-
-            public bool CanExtend(object extendee)
-            {
-            return (extendee is ToolStripMenuItem);
-            }
-
-            public void SetFlybyText(ToolStripMenuItem item, string text)
-            {
-                if (text == null || text.Length == 0)
-                {
-                   // Clear item's text, if necessary
-                   if (FlybyTable.Contains(item))
-                   {
-                        FlybyTable.Remove(item);
-                        item.MouseHover -= OnMouseHover;
-                        item.MouseLeave -= OnMouseLeave;
-                        item.MouseDown -= OnMouseDown;
-                   }
-                }
-                else
-                {
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
                 // Write or overwrite the item's text
                 FlybyTable[item] = text;
                 item.MouseHover += OnMouseHover;
                 item.MouseLeave += OnMouseLeave;
                 item.MouseDown += OnMouseDown;
-<<<<<<< HEAD
             }
         }
 
@@ -139,34 +88,6 @@ namespace Manning.MyPhotoControls
                 CurrentStatusText = null;
             }
         }
-=======
-                }
-            }
-
-            public string GetFlybyText(ToolStripMenuItem item)
-            {
-                 return FlybyTable[item] as string;
-            }
-
-            private void ShowFlyby(object item)
-            {
-                string flybyText = FlybyTable[item] as string;
-                if (flybyText != null && StatusLabel != null)
-                {
-                    CurrentStatusText = StatusLabel.Text;
-                    StatusLabel.Text = flybyText;
-                }
-            }
-
-            private void RevertFlyby(object item)
-            {
-                if (StatusLabel != null)
-                {
-                    StatusLabel.Text = CurrentStatusText;
-                    CurrentStatusText = null;
-                }
-            }
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42
 
         private void OnMouseHover(object sender, EventArgs e)
         {
@@ -185,11 +106,5 @@ namespace Manning.MyPhotoControls
             // Rever to status text when mouse pressed
             RevertFlyby(sender);
         }
-<<<<<<< HEAD
     }
 }
-=======
-
-            }
-        }
->>>>>>> 091d814457582f1de677ee03ae5b1f6e7b43ba42

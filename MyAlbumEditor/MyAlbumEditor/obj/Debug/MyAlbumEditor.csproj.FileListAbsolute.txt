@@ -12,3 +12,17 @@ C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyAlbumEdit
 C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.csproj.CoreCompileInputs.cache
 C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.exe
 C:\Users\WIN\Documents\GitHub\Hello-World\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.pdb
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyAlbumEditor.exe.config
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyAlbumEditor.exe
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyAlbumEditor.pdb
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyPhotoAlbum.dll
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyPhotoControls.dll
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyPhotoControls.pdb
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.csprojResolveAssemblyReference.cache
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.EditorForm.resources
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.Properties.Resources.resources
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.csproj.GenerateResource.Cache
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.csproj.CoreCompileInputs.cache
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.exe
+C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyAlbumEditor\MyAlbumEditor\obj\Debug\MyAlbumEditor.pdb

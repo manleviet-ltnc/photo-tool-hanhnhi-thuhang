@@ -55,6 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,7 +85,7 @@
       <Name>MyPhotoAlbum</Name>
     </ProjectReference>
     <ProjectReference Include="..\MyPhotoControls\MyPhotoControls.csproj">
-      <Project>{abe505ef-7036-49d3-ad12-f0c44552ffd5}</Project>
+      <Project>{bda9733e-682f-49a2-a069-1f25d3a6928d}</Project>
       <Name>MyPhotoControls</Name>
     </ProjectReference>
   </ItemGroup>

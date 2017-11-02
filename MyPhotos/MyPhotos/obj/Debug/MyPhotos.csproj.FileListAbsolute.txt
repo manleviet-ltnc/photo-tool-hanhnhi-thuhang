@@ -62,3 +62,17 @@ C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\bin\D
 C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
 C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
 C:\Users\DDD\Documents\GitHub\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
+C:\Users\Admin\Documents\GitHub\photo tool\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\photo-tool-hanhnhi-thuhang\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb

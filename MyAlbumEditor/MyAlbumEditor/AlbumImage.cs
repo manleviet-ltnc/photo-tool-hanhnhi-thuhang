@@ -67,8 +67,8 @@ namespace MyAlbumEditor
         {
             BackgroundWorker bw = new BackgroundWorker();
             bw.DoWork += worker_DoWork;
-            bw.ProgressChanged += worker; ProgressChanged;
-            bw.RunWorkerCompleted += worker; _RunworkerCompleted;
+            bw.ProgressChanged += worker_ProgressChanged;
+            bw.RunWorkerCompleted += worker_RunWorkerCompleted;
             bw.WorkerSupportsCancellation = true;
             bw.WorkerReportsProgress = true;
 

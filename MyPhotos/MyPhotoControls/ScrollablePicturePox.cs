@@ -3,6 +3,14 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
+<<<<<<< HEAD
+namespace Manning.MyPhotoControls
+{
+    public class ScrollablePicturePox : PictureBox
+    {
+    }
+}
+=======
 namespace Mainning.MyPhotoControls
 {
     [DefaultEvent("Click")]
@@ -211,3 +219,4 @@ namespace Mainning.MyPhotoControls
 
 
 
+>>>>>>> df3592f1bc3831d15c2a78812e0e2925e3941441
